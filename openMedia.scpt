@@ -7,6 +7,8 @@ set a to "http://kat.ph/usearch/"
 set b to "http://unutulmazfilmler.co/arama.php?arama="
 set c to "http://dizipub.com/?s="
 set d to "category:movies/"
+set j to "category:books"
+set k to "category:games"
 set e to "http://www.youtube.com/results?search_query="
 
 repeat numLines times
@@ -33,6 +35,16 @@ repeat numLines times
        if("kat" is in querySource) then
           set queryKat to a & pieceName & d
           open location queryKat
+       end if
+
+       if("kat" is in querySource and "pdf" is in queryType) then
+          set queryKatPdf to a & pieceName & j
+          open location queryKatPdf
+       end if
+
+       if("kat" is in querySource and "oyun" is in queryType) then
+          set queryKatOyun to a & pieceName & k
+          open location queryKatOyun
        end if
 
        if("stream" is in querySource and "film" is in queryType) then
