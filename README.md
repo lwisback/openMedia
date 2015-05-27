@@ -11,4 +11,4 @@ keywords (opens in kat.ph as default)
 
 querySource: kat, stream, both
 
-queryType: dizi, film, xxx, both
+queryType: dizi, film, pdf, oyun, xxx, both
