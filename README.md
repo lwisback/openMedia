@@ -9,6 +9,6 @@ keywords *** youtube
 
 keywords (opens in kat.ph as default)
 
-querySource: kat, stream, both
+querySource: kat, stream, both, youtube(without queryType)
 
 queryType: dizi, film, pdf, oyun, xxx, both
